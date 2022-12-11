@@ -52,7 +52,7 @@ AWS Auto Scaling Group là tính năng tự động mở rộng để đảm b�
   <ul>
     <li>Có thể tạo Scaling Policies dựa trên % CPU, Network... hoặc đặt lịch (Scheduled)</li>
     <li>Cần sử dụng <b>Launch configuration</b> hoặc <b>Launch Templates</b> (version mới)</li>
-    <li>Để update ASG chỉ cần update lại Launch configuration/Launch Templates</li>
+    <li>Để update ASG chỉ cần update lại Launch configuration/Launch Templates (Launch configuration không thể modify, nếu tạo sai cần xóa đi tạo lại)</li>
     <li>IAM role attach vào ASG sẽ assign cho EC2 instances</li>
     <li>ASG miên phí, chúng ta chỉ cần trả cho resource như EC2, EBS...</li>
   </ul>
